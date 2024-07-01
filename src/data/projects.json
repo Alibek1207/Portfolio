@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Loyiha A",
+      "imageSrc": "projects/project.png",
+      "description": "Bu ilova yaratish orqali eng soʻnggi tillarni oʻrganish uchun yaratilgan loyihadir.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Loyiha B",
+      "imageSrc": "projects/project.png",
+      "description": "Bu ilova yaratish orqali eng soʻnggi tillarni oʻrganish uchun yaratilgan loyihadir.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Loyiha C",
+      "imageSrc": "projects/project.png",
+      "description": "Bu ilova yaratish orqali eng soʻnggi tillarni oʻrganish uchun yaratilgan loyihadir.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]

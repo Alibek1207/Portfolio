@@ -1,0 +1,50 @@
+import React from "react";
+
+import styles from "./Experience.module.css";
+import { imgskills } from "../../data/skills.js";
+import { imghistory } from "../../data/history.js";
+
+
+
+export const Experience = () => {
+  return (
+    <section className={styles.container} id="experience">
+      <h2 className={styles.title}>Tajriba</h2>
+      <div className={styles.content}>
+        <div className={styles.skills}>
+          {imgskills.map((skill, id) => {
+            return (
+              <div key={id} className={styles.skill}>
+                <div className={styles.skillImageContainer}>
+                  <img src={skill.imageSrc} alt={skill.title} />
+                </div>
+                <p>{skill.title}</p>
+              </div>
+            );
+          })}
+        </div>
+        <ul className={styles.history}>
+          {imghistory.map((historyItem, id) => {
+            return (
+              <li key={id} className={styles.historyItem}>
+                <img
+                  src={historyItem.imageSrc}
+                  alt={`${historyItem.organisation} Logo`}
+                />
+                <div className={styles.historyItemDetails}>
+                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                  <ul>
+                    {historyItem.experiences.map((experience, id) => {
+                      return <li key={id}>{experience}</li>;
+                    })}
+                  </ul>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
+};
