@@ -11,7 +11,7 @@ export const Projects = () => {
       <h2 className={styles.title}>Loyihalar</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {
-          return <ProjectCard key={id} project={project} />;
+          return <ProjectCard key={id} {...project} />;
         })}
       </div>
     </section>
