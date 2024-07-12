@@ -27,7 +27,7 @@ export const ProjectCard = ({
         <a href={demo} className={styles.link}>
           Demo
         </a>
-        <a href={source} className={styles.link}>
+        <a href={source} className={styles.link} target="_blank">
           Manba
         </a>
       </div>

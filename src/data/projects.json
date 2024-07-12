@@ -1,11 +1,11 @@
 [
     {
-      "title": "Loyiha A",
-      "imageSrc": "projects/project.png",
-      "description": "Bu ilova yaratish orqali eng soʻnggi tillarni oʻrganish uchun yaratilgan loyihadir.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Anor Market",
+      "imageSrc": "src/assets/project/anormarket.png",
+      "description": "Bu marketplays sayt bo'lib, bu saytda kun/tun, savat, va saqlanganlar nomli bo'limlari bor.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://anor-market-uz.vercel.app/",
+      "source": "https://github.com/Alibek1207/Anor-market"
     },
     {
       "title": "Loyiha B",
